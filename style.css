@@ -113,12 +113,12 @@ body{
 	line-height: 100px;
 	color: var(--body-bg);
 	margin-bottom: 30px;
+	margin-top: 10px;
   }
   .chui__hero--text-box span {
 	color: var(--primary-color);
 	font-weight: 600;
 	font-size: 35px;
-	margin-bottom: 20px;
 	display: inline-block;
   }
   .chui__order{
