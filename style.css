@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Tiro+Bangla&display=swap');
 :root{
 	--main-font: 'Hind Siliguri', sans-serif;
-	--primary-color: #eb0029;
+	--primary-color: #c31f3a;
 	--secondary-color: #4d5765;
 	--line-height: 26px;
 	--body-font-size: 16px;
@@ -22,6 +22,10 @@ body{
 
 }
 /* chuinogor basic classes */
+img{
+	max-width: 100%;
+	height: auto;
+}
 .main-color{
 	background-color: var(--primary-color);
 }
@@ -139,4 +143,150 @@ body{
 
 
 
-  
+/* chui product */
+
+.chui__popular--single {
+	background-color: #c31f3a0a;
+	border-radius: 4px;
+	padding: 30px;
+	border: 1px solid transparent;
+	transition: all .3s;
+  }
+  .chui__popular--single:hover{
+	  border: 1px solid #c31f3a21;
+  }
+  .chui__popular--single-item {
+	text-align: center;
+  }
+  .item__meta-box a {
+	font-size: 25px;
+	color: #000;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 600;
+	transition: all .3s;
+  }
+  .item__meta-box:hover a{
+	color: var(--primary-color);
+  }
+  .item__meta-box p:not(:last-child) {
+	margin-bottom: 10px;
+  }
+  .item__meta-box p.price {
+	font-weight: 600;
+	color: #000;
+	font-size: 25px;
+	font-family: 'Tiro Bangla', serif;
+  }
+  .item_interaction {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+  }
+  .item_interaction a {
+	border: 1px solid #757475de;
+	padding: 5px 10px;
+	border-radius: 4px;
+	background-color: transparent;
+	transition: all .3s;
+  }
+  .item_interaction a:hover img {
+	filter: invert(1);
+  }
+  .item_interaction a:hover{
+	background-color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+  }
+
+  /* footer  */
+
+  .chui__footer-content h4 {
+	font-size: 22px;
+	font-weight: 600;
+	color: var(--body-bg);
+	margin-bottom: 20px;
+	position: relative;
+  }
+  .chui__footer-content h4:after {
+	position: absolute;
+	content: '';
+	left: ;
+	left: 0;
+	bottom: -5px;
+	width: 70px;
+	height: 2px;
+	background-image: linear-gradient(to right, #fff, transparent);
+  }
+  .chui__footer-content p{
+	color: var(--body-bg);
+  }
+.chui__footer--social {
+	display: flex;
+	list-style: none;
+	gap: 15px;
+  }
+  .chui__footer--social li {
+	border: 1px solid #ff1f44cc;
+	padding: 3px 8px;
+	border-radius: 4px;
+	background-color: #ff1f44;
+  }
+  .chui__footer--social li a imgg {
+	filter: invert(1);
+  }
+
+  .chui__footer--social li a img {
+	filter: invert(1);
+	height: ;
+  }
+  .chui__footer--links li {
+	list-style: none;
+	margin-bottom: 10px;
+  }
+  .chui__footer--links li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+  }
+
+  /* newsletter */
+  .chui__subscription {
+	display: flex;
+	max-width: 1100px;
+	justify-content: space-between;
+	background-color: #db1a3a;
+	color: #fff;
+	align-items: center;
+	padding: 20px 30px;
+	margin: 50px auto auto;
+	box-shadow: 0px 0px 4px 0px #ff1138;
+}
+  .chui__subscription h4 {
+	margin: 0;
+	font-weight: 600;
+  }
+  .subcription__title p {
+	font-size: 10px;
+	margin-top: -5px;
+	margin-bottom: 0;
+}
+  .subcription__form form input {
+	padding: 15px 20px;
+	border-radius: 4px;
+	border: 0;
+	width: 250px;
+  }
+  .subcription__form form input:focus {
+	outline: none;
+  }
+  .subcription__form form button {
+	padding: 20px 15px;
+	border: 0;
+	border-radius: 4px;
+	margin-left: -5px;
+	background-color: var(--primary-color);
+	color: #fff;
+	font-weight: 600;
+  }
