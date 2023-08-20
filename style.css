@@ -1,0 +1,142 @@
+/* Style Css Here */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Tiro+Bangla&display=swap');
+:root{
+	--main-font: 'Hind Siliguri', sans-serif;
+	--primary-color: #eb0029;
+	--secondary-color: #4d5765;
+	--line-height: 26px;
+	--body-font-size: 16px;
+	--body-bg: #fff;
+	--menu-icon: url(assets/icon/list.svg);
+	
+}
+
+body{
+	font-family: var(--main-font);
+	color: 	var(--secondary-color);
+	line-height: var(--line-height);
+	font-size: var(--body-font-size);
+	background-color: var(--body-bg);
+
+}
+/* chuinogor basic classes */
+.main-color{
+	background-color: var(--primary-color);
+}
+.text-main{
+	color: var(--primary-color);
+}
+.chui__padding{
+	padding: 80px 0;
+}
+.chui__main--btn {
+	padding: 10px 30px;
+	background-color: var(--primary-color);
+	color: var(--body-bg);
+	text-decoration: none;
+	font-weight: 600;
+	border-radius: 3px;
+	border: 1px solid transparent;
+}
+
+.chui__main--btn em img {
+	height: 25px;
+	filter: invert(1);
+}
+.z-index {
+	z-index: 2;
+	position: relative;
+}
+/* chui animated btn */
+
+
+
+/* header area css */
+.chui__header nav a img {
+	height: 65px;
+}
+.chui__header .navbar-expand-lg .navbar-nav {
+	flex-direction: row;
+	gap: 20px;
+}
+.chui__header--links .navbar-nav a{
+	font-size: 18px;
+	color: #dbdbdb;
+	font-weight: 600;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+	color: var(--body-bg);
+}
+.chui__header--links .navbar-nav .login-btn {
+	border: 1px solid #ffa0a0;
+	border-radius: 4px;
+	color: #fff !important;
+	background-color: transparent;
+	transition: all .3s;
+}
+.chui__header--links .navbar-nav .login-btn:hover{
+	background-color: #fff;
+	color: #000 !important;
+}
+.chui__header--links .navbar-toggler {
+	border: 1px solid #ccc;
+}
+.chui__header--links .navbar-toggler:focus {
+	box-shadow: none;
+}
+.chui__header--links .navbar-toggler-icon {
+	background-image: var(--menu-icon);
+	filter: invert(.8);
+}
+
+/* hero area css */
+.chu__hero {
+	position: relative;
+  }
+  .chu__hero:before {
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	background: #35000996;
+	left: 0;
+	top: 0;
+  }
+.chui__hero--text-box {
+	max-width: 600px;
+  }
+  .chui__hero--text-box h1 {
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 100px;
+	color: var(--body-bg);
+	margin-bottom: 30px;
+  }
+  .chui__hero--text-box span {
+	color: var(--primary-color);
+	font-weight: 600;
+	font-size: 35px;
+	margin-bottom: 20px;
+	display: inline-block;
+  }
+  .chui__order{
+	border: 1px solid #ddddddab;
+	background-color: transparent;
+	transition: all .3s;
+	padding: 10px 25px;
+  }
+  .chui__order:hover{
+	background-color: var(--primary-color);
+	border: 1px solid transparent;
+  }
+  .chui__hero--img img {
+	height: 600px;
+	width: auto;
+	object-fit: cover;
+}
+
+
+
+  

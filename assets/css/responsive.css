@@ -1,0 +1,41 @@
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) { 
+
+}
+
+
+/* Xtar Large Device: 1200px. */
+@media (min-width: 1200px) and (max-width: 1500px){
+    
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.chui__hero--img img {height: 450px;}
+
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+	.chui__hero--text-box {max-width: 100%;}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.chui__header {	padding: 0px 15px;}
+	.chui__hero--text-box h1 {font-size: 55px;line-height: 75px;}	
+	.chui__hero--img img {height: auto;	max-width: 100%;}
+
+}
+/* extra small device*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.chui__hero--text-box h1 {font-size: 40px;line-height: 50px;}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+ 
+}
