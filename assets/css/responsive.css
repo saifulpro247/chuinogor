@@ -13,24 +13,31 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
 	.chui__hero--img img {height: 450px;}
+	.pd__review--fields input {
+		width: 48.5%;
+	}
 
 }
 /* Tablet & mobile Layout: 768px. */
 @media only screen and (max-width: 991px) { 
 	.chui__hero--text-box {max-width: 100%;}
 	.chui__subscription {flex-direction: column;}
-	.subcription__title {margin-bottom: 25px;}
+	.subcription__title {margin-bottom: 25px; text-align: center;}
 }
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
-	
+	.pd__review--fields input {
+		width: 48%;
+	}
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
 	.chui__header {	padding: 0px 15px;}
 	.chui__hero--text-box h1 {font-size: 55px;line-height: 75px;}	
 	.chui__hero--img img {height: auto;	max-width: 100%;}
+	.pd__reviews--grid {grid-template-columns: repeat(1, 1fr);}
+	.pd__review--fields input {width: 100%;}
 
 }
 /* extra small device*/
