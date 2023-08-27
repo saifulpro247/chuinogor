@@ -710,3 +710,8 @@ img {
 	height: 30px;
 }
 
+.chui__testimonial .swiper {
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 1px;
+}
